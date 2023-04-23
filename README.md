@@ -57,7 +57,7 @@ php artisan migrate
 ```
 
 
-3Run seeder:
+3. Run seeder:
 
 ```
 php artisan db:seed
@@ -69,6 +69,11 @@ php artisan db:seed
 php artisan passport:install
 ```
 
+5. Generate app key
+
+```
+php artisan key:generate
+```
 
 
 ## Run Server
