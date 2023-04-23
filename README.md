@@ -103,13 +103,11 @@ Password: asdasd
 
 ## Rest API with example
 
-I attached the postman collection file for a better understanding and using the APIs.
-Import the file in your postman and change the {{base_url}} in your postman environment.
+I have attached the Postman collection file. It will help you to run API's endpoints and check the response and body.
+Import the file in your Postman and change the {{base_url}} in your Postman environment.
+Open this link in a new tab.
 
-```
-https://documenter.getpostman.com/view/9499370/2s93Y5NetE
-```
-
+[Postman Collection](https://documenter.getpostman.com/view/9499370/2s93Y5NetE)
 
 ## License
 
