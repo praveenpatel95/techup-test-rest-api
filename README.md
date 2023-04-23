@@ -11,7 +11,7 @@ The application is developed for the manage "Therapist Management App".
 Clone the repository:
 
 ```
-https://github.com/praveenpatel95/techup-test-rest-api.git
+git clone https://github.com/praveenpatel95/techup-test-rest-api.git
 
 ```
 
