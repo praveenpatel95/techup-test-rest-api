@@ -49,6 +49,10 @@ MAIL_USERNAME=null
 MAIL_PASSWORD=null
 MAIL_ENCRYPTION=null
 ```
+You can change ADMIN_EMAIL value in .env file for get admin email.
+```
+ADMIN_EMAIL='youradmin@email.com'
+```
 
 2. Now you need to run migration command for create all migrations tables:
 

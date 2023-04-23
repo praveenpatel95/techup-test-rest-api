@@ -6,7 +6,7 @@ use App\Exceptions\ValidationRequestException;
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Foundation\Http\FormRequest;
 
-class UpdateStatuRequest extends FormRequest
+class UpdateStatusRequest extends FormRequest
 {
     /**
      * Validation rules for update the therapist status

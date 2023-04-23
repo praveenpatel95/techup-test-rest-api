@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Api\V1\Admin;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\therapist\UpdateStatuRequest;
+use App\Http\Requests\therapist\UpdateStatusRequest;
 use App\Http\Traits\ApiResponse;
 use App\Services\Therapist\TherapistService;
 use Illuminate\Http\JsonResponse;
@@ -37,11 +37,11 @@ class TherapistController extends Controller
 
     /**
      * Update therapist status
-     * @param UpdateStatuRequest $request
+     * @param UpdateStatusRequest $request
      * @param int $id
      * @return JsonResponse
      */
-    public function updateStatus(UpdateStatuRequest $request, int $id): JsonResponse
+    public function updateStatus(UpdateStatusRequest $request, int $id): JsonResponse
     {
         return $this->success($this->therapistService
             ->updateStatus($request->status, $id));
