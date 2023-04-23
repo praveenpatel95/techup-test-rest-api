@@ -11,13 +11,13 @@ The application is developed for the manage "Therapist Management App".
 Clone the repository:
 
 ```
-git clone https://github.com/praveenpatel95/techup-rest-api.git
+https://github.com/praveenpatel95/techup-test-rest-api.git
 
 ```
 
 Then cd into the folder with this command:
 ```
-cd techup-rest-api
+cd techup-test-rest-api
 ```
 
 Install composer with below command:
