@@ -109,7 +109,19 @@ Password: asdasd
 
 I have attached the Postman collection file. It will help you to run API's endpoints and check the response and body.
 Import the file in your Postman and change the {{base_url}} in your Postman environment.
-Open this link in a new tab.
+Open this link in a new tab.<br>
+Create a environment in postman collection. Create 2 vairbles base_url and adminToken
+
+###base_url
+```
+serverUrl/api/v1
+```
+serverUrl = Your application server url Ex. http://127.0.0.1:8000 
+<br>
+Ex. base_url = http://127.0.0.1:8000/api/v1
+
+###adminToken
+Login as a admin credentials and get the token and update adminToken value in postman environment for access admin endpoints.
 
 [Postman Collection](https://documenter.getpostman.com/view/9499370/2s93Y5NetE)
 
